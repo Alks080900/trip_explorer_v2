@@ -14,7 +14,7 @@ Dockerfile and docker-compose.yml in AWS. You may refer to this link of its vers
 ## Getting Started
 
 ### Frontend
-Note: Make sure before building the frontend modifications for .env (REACT_APP_API_URL) has been change.
+**Note: Make sure before building the frontend modifications for .env (REACT_APP_API_URL) has been change.**
 1. Navigate to the `frontend` folder:
    ```bash
    cd frontend
@@ -60,7 +60,7 @@ Note: Make sure before building the frontend modifications for .env (REACT_APP_A
    ```
 
 ### Backend
-Note: Add the S3 bukcet URL under the .allowedOrigins of CorsConfig.java before building and transferring to EC2
+**Note: Add the S3 bukcet URL under the .allowedOrigins of CorsConfig.java before building and transferring to EC2.**
 1. Modify the `application.properties` file in the backend.
 2. Build the Spring Boot application:
    ```bash

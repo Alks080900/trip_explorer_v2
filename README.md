@@ -14,7 +14,7 @@ Dockerfile and docker-compose.yml in AWS. You may refer to this link of its vers
 ## Getting Started
 
 ### Frontend
-**Note: Make sure before building the frontend modifications for .env (REACT_APP_API_URL) has been change.**
+**Note: Make sure before building the frontend, you must do a modifications for .env (REACT_APP_API_URL)**
 1. Navigate to the `frontend` folder:
    ```bash
    cd frontend
